@@ -1,0 +1,57 @@
+.navbar {
+    margin-top: 40px;
+}
+
+.nav-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-logo .panda-title {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list li {
+    padding: 0 15px;
+}
+
+.nav-list li a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ADB9C7;
+
+}
+
+.nav-btn {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #1E50FF; 
+    border-radius: 16px;
+    padding: 12px 24px;
+    transition: all 200ms;
+}
+.nav-btn:hover {
+    color: #1E50FF;
+}

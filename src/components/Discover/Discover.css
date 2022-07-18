@@ -1,0 +1,146 @@
+.discover {
+    margin-top: 88px;
+}
+
+.discover-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    width: 631px;
+}
+
+.content-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ADB9C7;
+    padding: 24px 0 40px;
+    width: 585px;
+}
+
+.content-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #1E50FF;
+    /* background: #1E50FF; */
+    border-radius: 16px;
+    border: none;
+    padding: 12px 41px;
+    cursor: pointer;
+    transition: all 150ms;
+    border: 1px solid #1E50FF;
+    background: transparent;
+
+}
+
+.content-btn:hover {
+    background: #1E50FF;
+    color: #FFFFFF;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+
+    background: #272D37;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.cont h3 {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 24px 0 24px;
+}
+
+.cont-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont-desc {
+    display: flex;
+    align-items: center;
+}
+
+.cont-desc img {
+    margin-right: 16px;
+}
+
+.cont-desc h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.cont-desc p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8F9CA9;
+}
+
+.cont-desc-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-desc-two p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8A8AA0;
+
+}
+
+.cont-desc-two h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.dis-partner {
+    margin-top: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.partner-img {
+    cursor: pointer;
+    transition: all 300ms;
+ }
+
+ .partner-img:hover {
+    transform: translateY(-6px);
+ }
+
+
+
